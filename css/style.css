@@ -1,0 +1,91 @@
+*{box-sizing: border-box; margin: 0; padding: 0}
+body{font-family: 'Gothic A1', sans-serif; font-size: 12px; color: #444444}
+ul{list-style-type: none}
+.clear{clear: both;}
+#wrap{width: 90%; margin-right: auto; margin-left: auto}
+.c1{width: 8.33%; float: left; padding: 15px}
+.c2{width: 16.66%; float: left; padding: 5px}
+.c3{width: 25%; float: left;padding: 15px}
+.c4{width: 33.33%; float: left; padding: 15px}
+.c5{width: 41.66%; float: left; padding: 15px}
+.c6{width: 50%; float: left; padding: 15px}
+.c66{width: 50%; float: left}
+.c7{width: 58.33%; float: left; padding: 15px}
+.c8{width: 66.66%; float: left; padding: 15px}
+.c9{width: 75; float: left; padding: 15px}
+.c10{width: 83.33%; float: right; padding: 15px}
+.c11{width: 91.66%; float: left; padding: 15px}
+.c12{width: 100%; float: left; padding: 15px}
+@media only screen and (max-width: 600px){[class*="c"]{width: 100%}aside li{background-color: white; float: left; width: 17%; text-align: center;font-size: 14px; font-weight: bold}section#main{margin-top: 30px}}
+
+header{height: 55px; position: relative;margin: 40px 0 40px 0}
+header #logo{position: absolute; top: 6px; left: 0}
+header img{width: 200px}
+header #top_menu{position: absolute; top: 17px; right: 0}
+header #top_menu a:link{color: black; text-decoration: none}
+header #top_menu a:visited{color: black; text-decoration: none}
+header #top_menu a:active{color: hotpink; text-decoration: none}
+header #indexLogin{font-weight: bold}
+
+/* aside{color: black} */
+aside li{padding: 5px; margin: 5px}
+aside a:link{color: black; text-decoration: none}
+aside a:visited{color: black; text-decoration: none}
+aside a:active{color: hotpink; text-decoration: none}
+
+
+section#main{padding: 15px}
+section#main p{padding: 10px; font-size: 0.95em; line-height: 130%}
+section#main img{width: 100%}
+
+/* section#main #login{float: left} */
+section#main #login h1{text-align: center}
+section#main #login_box{width: 600px; height: 30%; margin-left: auto; margin-right: auto}
+section#main #input_button{margin: 10px 0 0 10px}
+section#main #login_input{float: left; width: 25%}
+section#main #login_input li{margin: 2px 0 10px 0}
+section#main #login_input input{width: 150px; height: 25px}
+section#main #login_btn{float: left; background-color: black; color: white; width: 100px; margin: 18px 0 0 10px; padding: 30px 10px 30px 10px; text-align: center}
+section#main #idSave{margin: 10px 0 30px 0}
+section#main a:link{color: black; text-decoration: none}
+section#main a:visited{color: black; text-decoration: none}
+section#main a:active{color: hotpink; text-decoration: none}
+
+section#main #join h1{text-align: center}
+section#main #join #mem_form input{height: 30px}
+section#main #join #mem_form{width: 600px;margin-left: auto; margin-right: auto;font-family: "돋움";font-size: 12px;color: #444444;padding-top: 5px;padding-bottom: 10px}
+section#main #join .cols li{display: inline-block;margin: 10px 10px 0 0}
+section#main #join .cols li.col1{width: 150px;text-align: right}
+section#main #join .cols li.col2{width: 350px}
+section#main #join .cols li.col2 input.hp{width: 50px}
+#intro{vertical-align: top}
+
+section#main #shop1 h1{font-size: 27px; font-weight: bold; padding:20px 0 20px 0; width: 100%; border-bottom: solid 2px black}
+section#main #shop1 .col1{font-size: 15px; margin: 20px 0 0 0; float: left; font-weight: bold; width: 100px}
+section#main #shop1 .col2{margin: 20px 0 0 0; float: left; width: 320px; line-height: 18px}
+section#main #shop1 .col3{margin: 20px 10px 0 0; float: left; width: 320px; width: 100px; padding: 10px; float: left; text-align: center}
+section#main #shop1 #buyButton{background: black; color: white}
+section#main #shop1 #cartButton{background: rgb(73, 73, 73); color: white}
+section#main #shop1 #likeButton{background: gray; color: white}
+section#main #shop1 #col3Btn{margin-left: auto; margin-right: auto;}
+
+section#main #about .logo{font-size: 30px; margin: 30px 0 50px 0}
+section#main #about .com{font-size: 12px;line-height: 25px}
+
+section#main #look #title{font-size: 3em; font-weight: bold; text-align: center}
+section#main #look #com{font-size: 12px; color: hotpink; text-align: center}
+
+footer{height: 60px; padding: 10px; margin-top: 70px}
+footer table{width: 100%}
+footer td{width: 40%; border-bottom: 1px solid black}
+footer th{width: 20%; padding: 0 10px 0 10px}
+footer th img{width: 40%}
+/* footer p{} */
+footer #icons{text-align: center;margin: 10px 0 20px 0}
+footer #icons img{width: 20px;margin: 0 5px 0 5px}
+footer #p2{color: gray; line-height: 30px; font-size: 10px}
+
+#btn-top{position:fixed;right:20px;bottom:20px;width:40px;height:46px;border-radius:4px;text-align:center;box-shadow:0 1px 2px rgba(0,0,0,0.2)}
+#btn-top span{display:inline-block;position:relative;margin-top:8px;padding-top:10px;vertical-align:top;text-transform:uppercase;color:#000;font-size:12px;font-weight:700;line-height:20px}
+#btn-top span::before{content:"";display:block;position:absolute;top:4px;left:50%;width:5px;height:5px;margin-right:-4px;margin-bottom:-4px;margin-left:-4px;border-top:2px solid #000;border-left:2px solid #000;transform:rotate(45deg);transform-origin:center center}
+#btn-top span::after{content:"";display:block;position:absolute;bottom:0;left:0;width:100%;height:0;border-top:2px solid #000}
